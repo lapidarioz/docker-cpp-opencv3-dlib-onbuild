@@ -4,5 +4,5 @@ WORKDIR /usr/src/app-build
 
 ONBUILD COPY . /usr/src/app
 
-ONBUILD cmake /usr/src/app/
-ONBUILD cmake --build /usr/src/app-build --config Release
+ONBUILD RUN cmake /usr/src/app/
+ONBUILD RUN cmake --build /usr/src/app-build --config Release
