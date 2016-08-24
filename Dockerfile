@@ -1,4 +1,4 @@
-FROM lapidarioz/docker-cpp-opencv3-dlib
+FROM lapidarioz/docker-python-opencv3-dlib
 
 WORKDIR /usr/src/app-build
 

@@ -1,7 +1,13 @@
 # docker-cpp-opencv3-dlib-onbuild
 
-## RUN
+## BUILD
 ```
-FROM docker-cpp-opencv3-dlib-onbuild
+docker build -t cpp-opencv3-dlib-onbuild .
+```
+
+## RUN
+Dockerfile
+```
+FROM lapidarioz/docker-cpp-opencv3-dlib-onbuild
 CMD [ "your-project-name" ]
 ```
